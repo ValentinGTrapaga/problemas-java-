@@ -35,11 +35,11 @@ function playRound(playerChoice, computerChoice) {
     }
 }
 
-function game() {
+/* function game() {
     for (let i = 0; i < 5; i++) {
         computerChoice = computerPlay()
         playerChoice = eligeJugador()
         playRound(playerChoice, computerChoice)
         console.log(`El resultado es Jugador: ${playerScore}, Maquina: ${compScore}`)
      }
-}
+} */
