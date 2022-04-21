@@ -12,16 +12,20 @@
 </head>
 
 <body class="bg-secondary">
-    <div id="resultado" class="container-fluid">
-        <h1>Result:</h1>
+    <div class="container-fluid m-3">
+        <div id="resultado" class="container-fluid d-flexrow">
+            <h1>Rock Paper Scissors!!</h1>
+            <h2>Let's play. Make your choice:</h2>
+        </div>
         <br>
-        <button type="button" id="game" class="d-flex mx-auto">Let's play!</button>
-    </div>
-    <br>
-    <div class="buttons row container-fluid d-flex justify-content-evenly">
-        <button type="button" id="rock" class="boton col btn btn-dark mx-2">Rock!</button>
-        <button type="button" id="paper" class="boton col btn btn-dark mx-2">Paper</button>
-        <button type="button" id="Scissors" class="boton col btn btn-dark mx-2">Scissors</button>
+        <div class="buttons row container-fluid d-flex justify-content-evenly">
+            <button type="button" id="rock" class="boton col btn btn-dark mx-2">Rock</button>
+            <button type="button" id="paper" class="boton col btn btn-dark mx-2">Paper</button>
+            <button type="button" id="scissors" class="boton col btn btn-dark mx-2">Scissors</button>
+        </div>
+        <br>
+        <div id="round"></div>
+        <div id="score"></div>
     </div>
 </body>
 <script src="script.js"></script>
